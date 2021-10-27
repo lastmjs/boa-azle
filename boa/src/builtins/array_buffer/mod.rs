@@ -314,7 +314,8 @@ impl ArrayBuffer {
 
         // 2. Let block be ? CreateByteDataBlock(byteLength).
         // TODO: for now just a arbitrary limit to not OOM.
-        if byte_length > 8589934592 {
+        // if byte_length > 8589934592 {
+        if byte_length > 4294967295 {
             return Err(context.construct_range_error("ArrayBuffer allocation failed"));
         }
         let block = vec![0; byte_length];

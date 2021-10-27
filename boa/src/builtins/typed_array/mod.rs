@@ -37,7 +37,7 @@ pub mod integer_indexed_object;
 
 macro_rules! typed_array {
     ($ty:ident, $name:literal, $global_object_name:ident) => {
-        #[doc = concat!("JavaScript `", $name, "` built-in implementation.")]
+        // #[doc = concat!("JavaScript `", $name, "` built-in implementation.")]
         #[derive(Debug, Clone, Copy)]
         pub struct $ty;
 
