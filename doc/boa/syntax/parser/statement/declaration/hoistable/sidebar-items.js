@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["parse_callable_declaration",""]],"mod":[["async_function_decl",""],["function_decl",""],["generator_decl",""]],"struct":[["HoistableDeclaration","Hoistable declaration parsing."]],"trait":[["CallableDeclaration",""]]});
